@@ -9,27 +9,27 @@ Laptops.csv: A comma-separated values file containing the core dataset.
 📖 Data Dictionary
 The dataset contains the following columns:
 
-Column                Type          Description                                                                                      Example
-brand                 String        The manufacturer of the laptop.                                                                  HP
-model                 String        The specific model name or number of the laptop.                                                 Omen 16-AE0075CL
-price_egp             String        The price of the laptop in Egyptian Pounds (EGP). Formatted with commas.                         "79,999"
-cpu                   String        The model of the central processing unit (CPU).                                                  Intel Core i7 14700HX
-cpu_cores             Integer       The total number of cores in the CPU.                                                            20
-cpu_max_speed         Float         The maximum boost clock speed of the CPU in Gigahertz (GHz).                                     5.5
-cpu_score             String        A performance benchmark score for the CPU (likely from a source like PassMark).                  "37,275"
-gpu                   String        The model of the graphics processing unit (GPU).                                                 NVIDIA GeForce RTX 4070
-vram                  Integer       The amount of dedicated video RAM for the GPU in Gigabytes (GB).                                 8
-ram                   Integer       The amount of system memory (RAM) in Gigabytes (GB).                                             16
-hard_capacity         String        The storage capacity of the primary hard drive (SSD or HDD).                                     1TB
-display_size          Float         The diagonal size of the screen in inches.                                                       16.1
-refresh_rates         String        The maximum refresh rate of the display in Hertz (Hz).                                           144Hz
-resolution            String        The screen resolution in pixels (Width x Height).                                                1920x1080
-warranty              Boolean       Indicates if a warranty is included (1 for Yes, 0 for No).                                       1
-warranty_duration     Integer       The duration of the warranty in years.                                                           1
-windows_11            Boolean       Indicates if Windows 11 is pre-installed (1 for Yes, 0 for No).                                  1
-seller                String        The name of the online retailer selling the laptop.                                              EGYPTLAPTOP
-link_to_product       String        A direct URL to the product's sales page.                                                        https://egyptlaptop.com/...
-
+| Column Name            | Type    | Description                                                          | Example                       |
+| ---------------------- | ------- | -------------------------------------------------------------------- | ----------------------------- |
+| **brand**              | String  | The manufacturer of the laptop.                                      | `HP`                          |
+| **model**              | String  | The specific model name or number of the laptop.                     | `Omen 16-AE0075CL`            |
+| **price\_egp**         | String  | Price of the laptop in Egyptian Pounds (EGP), formatted with commas. | `79,999`                      |
+| **cpu**                | String  | Model of the central processing unit (CPU).                          | `Intel Core i7 14700HX`       |
+| **cpu\_cores**         | Integer | Total number of cores in the CPU.                                    | `20`                          |
+| **cpu\_max\_speed**    | Float   | Maximum boost clock speed of the CPU in Gigahertz (GHz).             | `5.5`                         |
+| **cpu\_score**         | String  | Performance benchmark score for the CPU (e.g., PassMark).            | `37,275`                      |
+| **gpu**                | String  | Model of the graphics processing unit (GPU).                         | `NVIDIA GeForce RTX 4070`     |
+| **vram**               | Integer | Amount of dedicated video RAM for the GPU in Gigabytes (GB).         | `8`                           |
+| **ram**                | Integer | Amount of system memory (RAM) in Gigabytes (GB).                     | `16`                          |
+| **hard\_capacity**     | String  | Storage capacity of the primary drive (SSD or HDD).                  | `1TB`                         |
+| **display\_size**      | Float   | Screen size in inches (diagonal).                                    | `16.1`                        |
+| **refresh\_rates**     | String  | Maximum display refresh rate in Hertz (Hz).                          | `144Hz`                       |
+| **resolution**         | String  | Screen resolution (Width × Height).                                  | `1920x1080`                   |
+| **warranty**           | Boolean | Warranty availability (`1` = Yes, `0` = No).                         | `1`                           |
+| **warranty\_duration** | Integer | Warranty duration in years.                                          | `1`                           |
+| **windows\_11**        | Boolean | Indicates if Windows 11 is pre-installed (`1` = Yes, `0` = No).      | `1`                           |
+| **seller**             | String  | Online retailer selling the laptop.                                  | `EGYPTLAPTOP`                 |
+| **link\_to\_product**  | String  | Direct URL to the product’s sales page.                              | `https://egyptlaptop.com/...` |
 
 💡 Potential Use Cases
 Market Analysis: Analyze the distribution of laptop brands, specs, and prices in the Egyptian market.
